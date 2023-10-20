@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-19T04:35:50.472Z</updated>
+  <updated>2023-10-20T13:09:37.605Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GMM高斯混合模型</title>
+    <link href="http://example.com/post/6d95358d.html"/>
+    <id>http://example.com/post/6d95358d.html</id>
+    <published>2023-10-20T12:53:10.000Z</published>
+    <updated>2023-10-20T13:09:37.605Z</updated>
+    
+    <content type="html"><![CDATA[<p>123</p><span id="more"></span><p>123</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;123&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>博客常用操作</title>
@@ -38,7 +55,7 @@
     <link href="http://example.com/post/b93631e0.html"/>
     <id>http://example.com/post/b93631e0.html</id>
     <published>2023-10-18T13:11:51.000Z</published>
-    <updated>2023-10-19T04:27:36.984Z</updated>
+    <updated>2023-10-20T13:09:36.019Z</updated>
     
     <content type="html"><![CDATA[<p>记录创建博客时的报错</p><span id="more"></span><h2 id="1-生成SSH密钥保存位置"><a href="#1-生成SSH密钥保存位置" class="headerlink" title="1. 生成SSH密钥保存位置"></a>1. 生成SSH密钥保存位置</h2><ul><li>错误：将 <strong>“.ssh&#x2F;id_rsa”</strong> 存入D盘下的文件夹中</li><li>解决：应将其存入 <strong>“C&#x2F;Users&#x2F;“</strong> 文件夹中</li></ul><h2 id="2-运行-“ssh-T-git-github-com“-时报错"><a href="#2-运行-“ssh-T-git-github-com“-时报错" class="headerlink" title="2. 运行 “ssh -T git@github.com“ 时报错"></a>2. 运行 “<code>ssh -T git@github.com</code>“ 时报错</h2><ul><li>错误：Permission denied (publickey). fatal: Could not read from remote repository. </li><li>解决：将得到的密钥添加到github中</li></ul><h2 id="3-运行-“hexo-init“-初始化hexo时报错"><a href="#3-运行-“hexo-init“-初始化hexo时报错" class="headerlink" title="3. 运行 “hexo init“ 初始化hexo时报错"></a>3. 运行 “<code>hexo init</code>“ 初始化hexo时报错</h2><ul><li>错误1：三行 Info 中第二行报错：</li><li>解决： 一般是github访问问题，建议使用加速器</li><li>错误2：三行 Info 中第三行报错：Failed to install dependencies. Please run ‘npm install’ manually!。且 执行”npm install”失败</li><li>解决： 这是因为没用使用管理员模式打开 <em><strong>git bash</strong></em> 建议在 修改 <em><strong>git-bash.exe</strong></em> 默认使用管理员启动</li></ul><h2 id="4-运行-“hexo-d“-时报错"><a href="#4-运行-“hexo-d“-时报错" class="headerlink" title="4. 运行 “hexo d“ 时报错"></a>4. 运行 “<code>hexo d</code>“ 时报错</h2><ul><li>错误：ERROR Deployer not found: git</li><li>解决：<ul><li>如果没有安装 <em><strong>hexo-deployer-git</strong></em> 插件 先安装<br>  npm install hexo-deployer-git –save</li><li>先在github上创建网站库 再尝试</li></ul></li></ul><h2 id="5-打开创建好的网站时报错404"><a href="#5-打开创建好的网站时报错404" class="headerlink" title="5. 打开创建好的网站时报错404"></a>5. 打开创建好的网站时报错404</h2><ul><li>解决：作者起初使用了与github用户名不同的名字作为库名即网站名，出现404，再修改为与github用户名相同后，且修改 <em><strong>_config.yml</strong></em> 文档相关信息后成功打开</li></ul>]]></content>
     
@@ -49,26 +66,6 @@
     
     
     <category term="踩坑" scheme="http://example.com/tags/%E8%B8%A9%E5%9D%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/post/4a17b156.html"/>
-    <id>http://example.com/post/4a17b156.html</id>
-    <published>2023-10-18T12:15:16.089Z</published>
-    <updated>2023-10-19T04:27:36.983Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
     
   </entry>
   
