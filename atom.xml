@@ -3,11 +3,11 @@
   <title>Escapeey`Blog</title>
   
   <subtitle>岂能尽如人意，但求无愧我心。</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://escapeey.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
-  <updated>2023-10-20T13:09:37.605Z</updated>
-  <id>http://example.com/</id>
+  <link href="https://escapeey.github.io/"/>
+  <updated>2023-10-20T13:10:07.462Z</updated>
+  <id>https://escapeey.github.io/</id>
   
   <author>
     <name>Escapeey</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>GMM高斯混合模型</title>
-    <link href="http://example.com/post/6d95358d.html"/>
-    <id>http://example.com/post/6d95358d.html</id>
+    <link href="https://escapeey.github.io/post/6d95358d.html"/>
+    <id>https://escapeey.github.io/post/6d95358d.html</id>
     <published>2023-10-20T12:53:10.000Z</published>
-    <updated>2023-10-20T13:09:37.605Z</updated>
+    <updated>2023-10-20T13:10:07.462Z</updated>
     
     <content type="html"><![CDATA[<p>123</p><span id="more"></span><p>123</p>]]></content>
     
@@ -35,8 +35,8 @@
   
   <entry>
     <title>博客常用操作</title>
-    <link href="http://example.com/post/83d7c48b.html"/>
-    <id>http://example.com/post/83d7c48b.html</id>
+    <link href="https://escapeey.github.io/post/83d7c48b.html"/>
+    <id>https://escapeey.github.io/post/83d7c48b.html</id>
     <published>2023-10-18T14:07:33.000Z</published>
     <updated>2023-10-19T04:35:50.472Z</updated>
     
@@ -52,8 +52,8 @@
   
   <entry>
     <title>创建博客踩坑记录</title>
-    <link href="http://example.com/post/b93631e0.html"/>
-    <id>http://example.com/post/b93631e0.html</id>
+    <link href="https://escapeey.github.io/post/b93631e0.html"/>
+    <id>https://escapeey.github.io/post/b93631e0.html</id>
     <published>2023-10-18T13:11:51.000Z</published>
     <updated>2023-10-20T13:09:36.019Z</updated>
     
@@ -65,7 +65,7 @@
     
     
     
-    <category term="踩坑" scheme="http://example.com/tags/%E8%B8%A9%E5%9D%91/"/>
+    <category term="踩坑" scheme="https://escapeey.github.io/tags/%E8%B8%A9%E5%9D%91/"/>
     
   </entry>
   
