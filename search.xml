@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>编译原理-词法分析</title>
+      <link href="/post/8254dc99.html"/>
+      <url>/post/8254dc99.html</url>
+      
+        <content type="html"><![CDATA[<h1>词法分析器的功能</h1><ul><li>功能：输入源程序，输出单词符号。即：<strong>把构成源程序的字符串转换成“等价的”单词序列</strong><ul><li>根据词法规则识别及组合单词，进行词法检查</li><li>对数字常数完成数字字符串到二进制数值的转换</li><li>删去空格和注释等不影响程序语义的字符</li></ul></li></ul><h1>单词的描述</h1><h1>单词的识别</h1><h1>词法分析程序的自动生成</h1>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>编译原理-引论</title>
       <link href="/post/a7451f54.html"/>
       <url>/post/a7451f54.html</url>
